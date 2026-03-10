@@ -1,11 +1,11 @@
 # Run Folder Convention
 
-When generating a related-work draft from a specific run, save it under the same run folder.
+Save related-work outputs under the same topic-centered academic run folder.
 
 Recommended path:
 
-- `notes/research/runs/<run-id>/related-work-bilingual.md`
+- `research/<topic-slug>/academic/<run-id>/related-work-bilingual.md`
 
 Rules:
-- Reuse the upstream run folder when the draft belongs to the same literature-review execution.
-- Do not scatter files for one review across many directories unless the user asks.
+- Reuse the upstream academic run folder for the same topic and run.
+- Keep all literature-review artifacts together.

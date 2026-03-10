@@ -1,10 +1,10 @@
 # Run Folder Convention
 
-Create a per-run folder for each coding workflow execution.
+Create a topic-centered coding workflow folder.
 
 Recommended path:
 
-- `reports/code-loop/runs/<YYYYMMDD-HHMMSS>-<repo-slug>-<task-slug>/`
+- `research/<topic-slug>/coding/<YYYYMMDD-HHMMSS>-<repo-slug>-<task-slug>/`
 
 Inside that folder, prefer:
 - `repo-plan.md`
@@ -12,5 +12,6 @@ Inside that folder, prefer:
 - `final-report.md`
 
 Rules:
-- Do not overwrite previous coding runs.
-- Keep plan, raw loop output, and final report together.
+- Group coding experiments under the same topic folder.
+- Put coding workflow artifacts under the topic's `coding/` subtree.
+- Keep plan, raw validation output, and final report together.

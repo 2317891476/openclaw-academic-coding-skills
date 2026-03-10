@@ -1,10 +1,10 @@
 # Run Folder Convention
 
-For every coding-fix-pipeline execution, create a fresh run folder.
+For every coding-fix-pipeline execution, create a fresh coding run folder under the topic folder.
 
 Recommended path:
 
-- `reports/code-loop/runs/<YYYYMMDD-HHMMSS>-<repo-slug>-<task-slug>/`
+- `research/<topic-slug>/coding/<YYYYMMDD-HHMMSS>-<repo-slug>-<task-slug>/`
 
 Expected artifacts:
 - `repo-plan.md`
@@ -12,5 +12,5 @@ Expected artifacts:
 - `final-report.md`
 
 Rules:
-- This pipeline should be the owner of the run folder.
-- Upstream and downstream stages should write into the same run folder.
+- The topic folder is the top-level grouping key.
+- The `coding/` folder holds implementation and validation artifacts only.

@@ -1,10 +1,10 @@
 # Run Folder Convention
 
-For every academic-literature-review-pipeline execution, create a fresh run folder.
+For every academic-literature-review-pipeline execution, create a fresh academic run folder under the topic folder.
 
 Recommended path:
 
-- `notes/research/runs/<YYYYMMDD-HHMMSS>-<topic-slug>/`
+- `research/<topic-slug>/academic/<YYYYMMDD-HHMMSS>/`
 
 Expected artifacts:
 - `research-note-bilingual.md`
@@ -13,5 +13,5 @@ Expected artifacts:
 - `figure-note-bilingual.md` (optional)
 
 Rules:
-- This pipeline should be the owner of the run folder.
-- Downstream skills should write into the same run folder.
+- The topic folder is the top-level grouping key.
+- The `academic/` folder holds literature-review outputs only.

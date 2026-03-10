@@ -1,10 +1,10 @@
 # Run Folder Convention
 
-Create a new per-run folder for every execution.
+Create a topic-centered folder hierarchy for every workflow.
 
 Recommended path:
 
-- `notes/research/runs/<YYYYMMDD-HHMMSS>-<topic-slug>/`
+- `research/<topic-slug>/academic/<YYYYMMDD-HHMMSS>/`
 
 Inside that folder, prefer:
 - `research-note-bilingual.md`
@@ -12,6 +12,6 @@ Inside that folder, prefer:
 - `query-log.md`
 
 Rules:
+- Group all work by topic first.
+- Put academic workflow artifacts under the topic's `academic/` subtree.
 - Never overwrite a previous run folder.
-- Use one folder per run, even for the same topic.
-- Keep filenames stable inside the run folder so downstream skills can find them.

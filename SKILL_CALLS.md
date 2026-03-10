@@ -2,6 +2,30 @@
 
 给团子喵调用本地 OpenClaw skills 的速查表。
 
+## 输出目录约定（最新版）
+
+现在这套学术/代码 workflow 默认按这个结构组织：
+
+```text
+research/
+  <topic-slug>/
+    academic/
+      <run-id>/
+        research-note-bilingual.md
+        related-work-bilingual.md
+        polished-bilingual.md
+    coding/
+      <run-id>/
+        repo-plan.md
+        validation-log.json
+        final-report.md
+```
+
+也就是说：
+- 先按主题分文件夹
+- 再在主题下分 `academic/` 和 `coding/`
+- 每次运行都各自新建一个 run 文件夹
+
 ## 推荐的强制调用格式
 
 在新对话、少上下文、或者你想明确指定 skill 时，直接用这个格式：

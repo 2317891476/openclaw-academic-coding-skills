@@ -1,15 +1,14 @@
 # Run Folder Convention
 
-When polishing academic output produced by an earlier stage, save the polished artifact in the same run folder.
+Save polished academic artifacts under the same topic-centered academic run folder.
 
 Recommended path:
 
-- `notes/research/runs/<run-id>/polished-bilingual.md`
+- `research/<topic-slug>/academic/<run-id>/polished-bilingual.md`
 
-Optional extra files:
+Optional extras:
 - `figure-note-bilingual.md`
 - `proposal-outline-bilingual.md`
 
 Rules:
-- Keep all artifacts from one academic workflow in one folder.
-- Prefer one final polished file per run unless the user requests variants.
+- Keep all academic outputs for one topic and one run together.

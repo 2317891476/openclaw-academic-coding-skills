@@ -35,6 +35,7 @@ Search for papers and turn results into structured paper cards, not loose search
 - When evidence is thin, say so explicitly.
 - When the user is clearly building toward a survey or related-work section, keep terminology consistent across cards.
 - When the user wants persistent notes, save them using `references/save-convention.md`.
+- Prefer a fresh per-run folder using `references/run-folder-convention.md`.
 
 ## Output Pattern
 
@@ -51,3 +52,4 @@ Use the card format in `references/output-format.md`.
 - Read `references/synthesis-pattern.md` before writing the concluding synthesis.
 - Use `references/research-note-template.md` when saving the result as a reusable note.
 - Use `references/save-convention.md` when writing notes to the workspace.
+- Use `references/run-folder-convention.md` when this run should create a new artifact folder.

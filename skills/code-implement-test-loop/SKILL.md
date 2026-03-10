@@ -44,5 +44,6 @@ Default output:
 - Read `references/failure-classification.md` when summarizing failures.
 - Read `references/output-template.md` before returning the final engineering summary.
 - Read `references/report-save-convention.md` when saving loop reports to disk.
+- Read `references/run-folder-convention.md` when creating a fresh run folder for this execution.
 - Use `scripts/run_loop.py` as a deterministic helper when a simple repeated validation loop is enough.
 - Use `scripts/render_report.py` to convert loop JSON into a markdown report.

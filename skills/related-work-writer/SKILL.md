@@ -42,3 +42,4 @@ Default output:
 - Read `references/bilingual-output.md` when the user wants Chinese-facing output with English technical anchors retained.
 - Read `references/default-bilingual-template.md` to keep bilingual related-work output consistent.
 - Use `references/save-convention.md` when saving a related-work draft into the workspace.
+- Use `references/run-folder-convention.md` to keep the draft inside the current run folder.

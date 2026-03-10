@@ -46,3 +46,4 @@ If the user wants both English and Chinese, follow `references/bilingual-output.
 - Read `references/output-variants.md` when the user wants clean-only, compare, or rebuttal-pack output.
 - Read `references/bilingual-output.md` when the user wants English preserved alongside academic Chinese rendering.
 - Read `references/default-bilingual-template.md` to keep bilingual polish output consistent.
+- Read `references/run-folder-convention.md` when saving polished artifacts for a workflow run.

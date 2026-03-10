@@ -38,3 +38,4 @@ Default output:
 - Read `references/repo-analysis-checklist.md` before complex edits.
 - Read `references/plan-rules.md` before proposing a patch plan.
 - Read `references/output-template.md` when returning a structured repo analysis.
+- Read `references/run-folder-convention.md` when saving plan artifacts for a coding run.

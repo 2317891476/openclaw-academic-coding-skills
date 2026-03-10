@@ -9,13 +9,14 @@ Use this as the single entrypoint for repository diagnosis + implement-test-fix 
 
 ## Workflow
 
-1. Create a fresh run folder according to `references/run-folder-convention.md`.
-2. Start with `repo-coding-assistant` to understand the repository and locate likely patch points.
-3. Produce a concise change plan and validation strategy.
-4. Pass the plan into `code-implement-test-loop`.
-5. Run the implement-test-feedback loop with explicit stop conditions.
-6. Save the loop report inside that run folder when persistent output is useful.
-7. Return the final status, patch summary, and report path.
+1. Create or select a topic folder according to `references/run-folder-convention.md`.
+2. Inside that topic folder, create a fresh coding run folder.
+3. Start with `repo-coding-assistant` to understand the repository and locate likely patch points.
+4. Produce a concise change plan and validation strategy.
+5. Pass the plan into `code-implement-test-loop`.
+6. Run the implement-test-feedback loop with explicit stop conditions.
+7. Save the loop report inside that coding run folder when persistent output is useful.
+8. Return the final status, patch summary, and report path.
 
 ## Rules
 

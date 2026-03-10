@@ -198,11 +198,11 @@ Output: 研究提纲 + related work + 改进点建议
 如果你要跑整条学术链，最推荐直接用：
 
 ```text
-严格使用 academic-literature-review-pipeline 处理下面任务，并按该 skill 的默认输出格式返回结果：围绕 CDCL 系 SAT 求解器做一轮完整学术流，输出双语 research note、related work 草稿和 polished 版本。
+严格使用 academic-literature-review-pipeline 处理下面任务，并按该 skill 的默认输出格式返回结果：围绕 CDCL 系 SAT 求解器做一轮完整学术流，按 topic→academic 目录结构输出双语 research note、related work 草稿和 polished 版本。
 ```
 
 如果你要跑整条编码修复链，最推荐直接用：
 
 ```text
-严格使用 coding-fix-pipeline 处理下面任务，并按该 skill 的默认输出格式返回结果：分析并修复 openclaw-qq 仓库中的一个问题，输出 change plan、validation loop 和 markdown 报告。
+严格使用 coding-fix-pipeline 处理下面任务，并按该 skill 的默认输出格式返回结果：围绕某个 topic 分析并修复 openclaw-qq 仓库中的一个问题，按 topic→coding 目录结构输出 change plan、validation loop 和 markdown 报告。
 ```

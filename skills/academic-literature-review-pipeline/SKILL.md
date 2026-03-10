@@ -10,13 +10,14 @@ Use this as the single entrypoint for the full academic writing flow.
 ## Workflow
 
 1. Start with `research-paper-scout` to collect and structure papers.
-2. Create a fresh run folder according to `references/run-folder-convention.md`.
-3. Save the scouting result into that run folder when persistent output is useful.
-4. Pass the paper cards or note file into `related-work-writer`.
-5. Produce a related-work draft, usually with Chinese academic prose plus English technical anchors.
-6. Pass the draft into `academic-draft-polish` for polished English + academic Chinese rendering.
-7. If the user asks for a figure, call `paper-figure-builder` and produce a bilingual figure note.
-8. Return the final outputs with clear file paths inside the run folder.
+2. Create or select a topic folder according to `references/run-folder-convention.md`.
+3. Inside that topic folder, create a fresh academic run folder.
+4. Save the scouting result into that academic run folder when persistent output is useful.
+5. Pass the paper cards or note file into `related-work-writer`.
+6. Produce a related-work draft, usually with Chinese academic prose plus English technical anchors.
+7. Pass the draft into `academic-draft-polish` for polished English + academic Chinese rendering.
+8. If the user asks for a figure, call `paper-figure-builder` and produce a bilingual figure note.
+9. Return the final outputs with clear file paths inside the topic's academic run folder.
 
 ## Rules
 
